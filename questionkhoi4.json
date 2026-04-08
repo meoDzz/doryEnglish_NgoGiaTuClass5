@@ -1,0 +1,1896 @@
+{
+      "questions": [
+            {
+                "id": 1,
+                  "question": "Odd one out: ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "mother",
+                        "aunt",
+                        "father",
+                        "doctor"
+                  ],
+                  "answer": "doctor"
+            },
+ {
+                "id": 2,
+                  "question": "Choose the correct answer: What a(n) ____ doll! My children like it very much. ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "better",
+                        "lovely",
+                        "awful",
+                        "ugly"
+                  ],
+                  "answer": "lovely"
+            },
+{
+                "id": 3,
+                  "question": "Choose the correct answer: Don't write _____ that wall. ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "on",
+                        "in",
+                        "at",
+                        "under"
+                  ],
+                  "answer": "on"
+            },
+{
+                "id": 4,
+                  "question": "Choose the correct answer: What time is it? - It _____ three fifteen. ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "are",
+                        "in",
+                        "is",
+                        "has"
+                  ],
+                  "answer": "is"
+            },
+{
+                "id": 5,
+                  "question": "Choose the correct answer: Thank you very _____ for helping me. ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "much",
+                        "many",
+                        "more",
+                        "so"
+                  ],
+                  "answer": "much"
+            },
+{
+                "id": 6,
+                  "question": "Choose the correct answer: April is the _______ month of the year. ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "first",
+                        "second",
+                        "third",
+                        "fourth"
+                  ],
+                  "answer": "fourth"
+            },
+{
+                "id": 7,
+                  "question": "Choose the correct answer: I'm from Nha Trang. _______ you? ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "So",
+                        "This",
+                        "That",
+                        "And"
+                  ],
+                  "answer": "And"
+            },
+{
+                "id": 8,
+                  "question": "Choose the correct answer: What's the weather like in summer? - _______ ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "It's hot",
+                        "It's cold",
+                        "It hot",
+                        "It cold"
+                  ],
+                  "answer": "It's hot"
+            },
+{
+                "id": 9,
+                  "question": "Choose the correct answer: Another word for cheap is _____. ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "cold",
+                        "expensive",
+                        "difficult",
+                        "inexpensive"
+                  ],
+                  "answer": "inexpensive"
+            },
+{
+                "id": 10,
+                  "question": "Choose the correct answer: Mr. Branson is from _____. He's Austrailian. ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "Sydney",
+                        "London",
+                        "Beijing",
+                        "New York"
+                  ],
+                  "answer": "Sydney"
+            },
+
+{
+                "id": 11,
+                  "question": "Choose the correct answer: _______ are these? - They're my school things. ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "Who",
+                        "What",
+                        "When",
+                        "How"
+                  ],
+                  "answer": "What"
+            },
+{
+                "id": 12,
+                  "question": "Choose the correct answer: These colored pencils ______ nice.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "have",
+                        "is",
+                        "has",
+                        "are"
+                  ],
+                  "answer": "are"
+            },
+{
+                "id": 13,
+                  "question": "Choose the correct answer: What would you ______ to drink? = Apple juice, please. ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "give",
+                        "like",
+                        "take",
+                        "make"
+                  ],
+                  "answer": "like"
+            },
+{
+                "id": 14,
+                  "question": "Choose the correct answer: Anne is eating _____ biscuits. ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "some",
+                        "a",
+                        "an",
+                        "one"
+                  ],
+                  "answer": "some"
+            },
+{
+                "id": 15,
+                  "question": "Choose the correct answer: Can you give me a photo ____ you? ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "for",
+                        "in",
+                        "at",
+                        "of"
+                  ],
+                  "answer": "of"
+            },
+{
+                "id": 16,
+                  "question": "Choose the correct answer: This _____ my friend, Lucy. She is from Mexico. ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "are",
+                        "was",
+                        "is",
+                        "were"
+                  ],
+                  "answer": "is"
+            },
+{
+                "id": 17,
+                  "question": "Choose the correct answer: What do you have in your bag? - ______ ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "He has a book.",
+                        "She has a book.",
+                        "They have some books.",
+                        "I have a book."
+                  ],
+                  "answer": "I have a book."
+            },
+
+{
+                "id": 18,
+                  "question": "Choose the correct answer: We are all ______ Vietnam. ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "name",
+                        "from",
+                        "too",
+                        "during"
+                  ],
+                  "answer": "from"
+            },
+{
+                "id": 19,
+                  "question": "Choose the correct answer: My little sister likes orange cookies very ______. ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "many",
+                        "any",
+                        "some",
+                        "much"
+                  ],
+                  "answer": "much"
+            },
+{
+                "id": 20,
+                  "question": "Choose the correct answer: Who is the girl ____ to your sister over there? ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "to talk",
+                        "talk",
+                        "talking",
+                        "talks"
+                  ],
+                  "answer": "talking"
+            },
+
+{
+                "id": 21,
+                  "question": "Choose the correct answer: Is this your umbrella? - Yes, it is _______. ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "me",
+                        "mine",
+                        "my",
+                        "I"
+                  ],
+                  "answer": "mine"
+            },
+{
+                "id": 22,
+                  "question": "Choose the correct answer: My younger brother can _____ a bike. ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "ride",
+                        "rode",
+                        "rides",
+                        "riding"
+                  ],
+                  "answer": "ride"
+            },
+
+{
+                "id": 23,
+                  "question": "Choose the correct answer: Chloe always gets up very early, so she is ______ late for class. ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "usually",
+                        "often",
+                        "always",
+                        "never"
+                  ],
+                  "answer": "never"
+            },
+{
+                "id": 24,
+                  "question": "Choose the correct answer: Please close the door. It's _____ in here. ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "hot",
+                        "cold",
+                        "warm",
+                        "rainy"
+                  ],
+                  "answer": "cold"
+            },
+{
+                "id": 25,
+                  "question": "Choose the correct answer: Would you like some more rice? - _________ .",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "No, I don't",
+                        "Yes, I do",
+                        "Yes, please",
+                        "Yes, I ate rice"
+                  ],
+                  "answer": "Yes, please"
+            },
+
+{
+                "id": 26,
+                  "question": "Choose the correct answer: Odd one out: ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "Tuesday",
+                        "Monday",
+                        "Yesterday",
+                        "Sunday"
+                  ],
+                  "answer": "Yesterday"
+            },
+{
+                "id": 27,
+                  "question": "Choose the correct answer: I have two brothers. _______ names are Tuan and Manh. ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "His",
+                        "Their",
+                        "They",
+                        "Theirs"
+                  ],
+                  "answer": "Their"
+            },
+{
+                "id": 28,
+                  "question": "Choose the correct answer: She ______ got blonde hair.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "has",
+                        "have",
+                        "having",
+                        "to have"
+                  ],
+                  "answer": "has"
+            },
+
+{
+                "id": 29,
+                  "question": "Choose the correct answer: These flowers are for you, Miss Hien. - _______. ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "No, I don't",
+                        "Thank you",
+                        "Yes, I do",
+                        "Yes, they are"
+                  ],
+                  "answer": "Thank you"
+            },
+
+{
+                "id": 30,
+                  "question": "Choose the correct answer: Odd one out:",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "crocodile",
+                        "grape",
+                        "zebra",
+                        "donkey"
+                  ],
+                  "answer": "grape"
+            },
+{
+                "id": 32,
+                  "question": "Choose the correct answer: These _____ are too big for my hands. ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "flower",
+                        "gloves",
+                        "pen",
+                        "lemonade"
+                  ],
+                  "answer": "gloves"
+            },
+{
+                "id": 33,
+                  "question": "Choose the correct answer: People usually make their meals in the ________. ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "bathroom",
+                        "bedroom",
+                        "kitchen",
+                        "garage"
+                  ],
+                  "answer": "kitchen"
+            },
+{
+                "id": 34,
+                  "question": "Choose the correct answer: ______ you like to go camping with us this Sunday?",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "Will",
+                        "Should",
+                        "Could",
+                        "Would"
+                  ],
+                  "answer": "Would"
+            },
+{
+                "id": 35,
+                  "question": "Choose the correct answer: Is it a ______? - No, it isn't. It's a small box.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "small",
+                        "a big box",
+                        "a long ruler",
+                        "big box"
+                  ],
+                  "answer": "a big box"
+            },
+{
+                "id": 36,
+                  "question": "Which part needs correction?: Look! They playing volleyball happily in the schoolyard. ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "Look",
+                        "in",
+                        "playing",
+                        "happily"
+                  ],
+                  "answer": "playing"
+            },
+{
+                "id": 37,
+                  "question": "Choose the correct answer: Now please listen _____ what I say.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "of",
+                        "about",
+                        "to",
+                        "for"
+                  ],
+                  "answer": "to"
+            },
+
+{
+                "id": 38,
+                  "question": "Choose the correct answer: This picture dictionary ____ interesting.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "have",
+                        "has",
+                        "don't",
+                        "is"
+                  ],
+                  "answer": "is"
+            },
+{
+                "id": 39,
+                  "question": "Choose the correct answer: Is your classroom big? - No, it isn't. It's ______ . ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "short",
+                        "small",
+                        "long",
+                        "large"
+                  ],
+                  "answer": "small"
+            },
+{
+                "id": 40,
+                  "question": "Give the correct form of the word BREAK to complete the follow: I _____ a bowl yesterday but my mom wasn't angry with me. ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "break",
+                        "to break",
+                        "broke",
+                        "breaking"
+                  ],
+                  "answer": "broke"
+            },
+{
+                "id": 41,
+                  "question": "Choose the correct answer: Odd one out: ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "letter",
+                        "shirt",
+                        "blouse",
+                        "dress"
+                  ],
+                  "answer": "letter"
+            },
+{
+                "id": 42,
+                  "question": "Choose the correct answer: Which sentence is correct?",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "I don't have a motorbike.",
+                        "I am not have a motorbike. ",
+                        "I doesn't have a motorbike.",
+                        "I isn't have a motorbike."
+                  ],
+                  "answer": "I don't have a motorbike."
+            },
+
+{
+                "id": 43,
+                  "question": "Choose the correct answer: He learns ______ the piano. ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "playing",
+                        "play",
+                        "to play",
+                        "plays"
+                  ],
+                  "answer": "to play"
+            },
+{
+                "id": 44,
+                  "question": "Choose the correct answer: She is _____ the classroom now. ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "to",
+                        "in",
+                        "for",
+                        "on"
+                  ],
+                  "answer": "in"
+            },
+{
+                "id": 45,
+                  "question": "Choose the correct answer: How _____ does she eat out? - Once a week. ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "usually",
+                        "always",
+                        "never",
+                        "often"
+                  ],
+                  "answer": "often"
+            },
+
+{
+                "id": 46,
+                  "question": "Choose the correct answer: Can you help me _____ the room? ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "clean",
+                        "cleans",
+                        "cleaned",
+                        "A and B are correct"
+                  ],
+                  "answer": "clean"
+            },
+{
+                "id": 47,
+                  "question": "Choose the correct answer: We spent the weekend _____ the beach. ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "in",
+                        "on",
+                        "at",
+                        "from"
+                  ],
+                  "answer": "at"
+            },
+{
+                "id": 49,
+                  "question": "Choose the correct answer: Can you ride a horse? ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "No, I won't",
+                        "No, I can't",
+                        "No, I don't",
+                        "No, I'm not"
+                  ],
+                  "answer": "No, I can't"
+            },
+{
+                "id": 50,
+                  "question": "Choose the correct answer: ______ lemonade do you need? ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "How old",
+                        "How far",
+                        "How long",
+                        "How much"
+                  ],
+                  "answer": "How much"
+            },
+{
+                  "id": 51,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "playing", "after", "like", "They", "school.", "football" 
+                   ],
+                  "answer": " They like playing football after school. "
+            },
+{
+                  "id": 52,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "the", "are in", "His", "yellow box.", "toy cars"
+                   ],
+                  "answer": "His toy cars are in yellow box. "
+            },
+
+{
+                  "id": 53,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "BBQ party?", "are they", "When", "hold the", "going to"
+                   ],
+                  "answer": "When are they going to hold the BBQ party?"
+            },
+{
+                  "id": 54,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "me?", "you", "write", "to", "Can"
+                   ],
+                  "answer": "Can you write to me? "
+            },
+{
+                  "id": 55,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "My grandma", "a lot of", "grows", "in her garden.", "vegetables"
+                   ],
+                  "answer": "My grandma grows a lot of vegetables in her garden."
+            },
+{
+                  "id": 56,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "four seasons", "our country.", "in", "are", "There"
+                   ],
+                  "answer": "There are four seasons in our country. "
+            },
+{
+                  "id": 57,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "and", "dance.", "swim", "My brother", "can"
+                   ],
+                  "answer": "My brother can swim and dance."
+            },
+{
+                  "id": 58,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "Where", "are", "from?", "you"
+                   ],
+                  "answer": "Where are you from?"
+            },
+{
+                  "id": 59,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "your", "please.", "me", "pen,", "Show"
+                   ],
+                  "answer": "Show me your pen, please."
+            },
+{
+                  "id": 60,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "go to", "don't", "school", "on Sunday.", "I"
+                   ],
+                  "answer": "I don't go to school on Sunday."
+            },
+
+{
+                  "id": 61,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "They", "Sunday morning.", "go windsurfing", "every"
+                   ],
+                  "answer": "They go windsurfing every Sunday morning. "
+            },
+{
+                  "id": 62,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "about travelling", "last night.", "I dreamed", "into space"
+                   ],
+                  "answer": "I dreamed about travelling into space last night. "
+            },
+
+{
+                  "id": 63,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "here.", "your", "Please write", "address", "name and"
+                   ],
+                  "answer": "Please write your name and address here."
+            },
+{
+                  "id": 64,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "birthday?", "your little", "When's", "brother's"
+                   ],
+                  "answer": "When's your little brother's birthday?"
+            },
+{
+                  "id": 65,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "like to play", "a game", "Would you", "of chess", "with me now?"
+                   ],
+                  "answer": "Would you like to play a game of chess with me now?"
+            },
+{
+                  "id": 66,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "Who's", "or your sister?", "slimmer,", "your brother"
+                   ],
+                  "answer": "Who's slimmer, your brother or your sister? "
+            },
+
+{
+                  "id": 67,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "bookshop?", "Why do", "to go", "to the", "you want"
+                   ],
+                  "answer": "Why do you want to go to the bookshop? "
+            },
+
+{
+                  "id": 68,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "adorable.", "baby brother", "is", "My"
+                   ],
+                  "answer": "My baby brother is adorable. "
+            },
+
+{
+                  "id": 69,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "and Hanh", "Both Minh", "Lam Dong.", "are from"
+                   ],
+                  "answer": "Both Minh and Hanh are from Lam Dong. "
+            },
+{
+                  "id": 70,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "travel to", "Berlin", "They will", "next time."
+                   ],
+                  "answer": "They will travel to Berlin next time. "
+            },
+{
+                  "id": 71,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "What", "vacation?", "are you", "this summer", "going to do"
+                   ],
+                  "answer": "What are you going to do this summer vacation? "
+            },
+{
+                  "id": 72,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "What", "last weekend?", "did you", "do"
+                   ],
+                  "answer": "What did you do last weekend? "
+            },
+{
+                  "id": 73,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "thirty.", "Twenty-eight", "two is", "plus"
+                   ],
+                  "answer": "Twenty-eight plus two is thirty. "
+            },
+
+{
+                  "id": 74,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "wanted", "to buy", "Mike", "a pet dog."
+                   ],
+                  "answer": "Mike wanted to buy a pet dog."
+            },
+{
+                  "id": 75,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "at the beach", "lovely", "last weekend.", "It was"
+                   ],
+                  "answer": "It was lovely at the beach last weekend."
+            },
+{
+                  "id": 76,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "Jimmy", "for breakfat.", "doesn't want", "bread and milk"
+                   ],
+                  "answer": "Jimmy doesn't want bread and milk for breakfast."
+            },
+
+{
+                  "id": 77,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "is talking", "My sister", "doesn't want", "bread and milk"
+                   ],
+                  "answer": "Jimmy doesn't want bread and milk for breakfast."
+            },
+
+{
+                  "id": 78,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "My mother's", "in", "birthday", "is", "February."
+                   ],
+                  "answer": "My mother's birthday is in February."
+            },
+
+{
+                  "id": 79,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "has", "got", "Jack", "Maths?", "How often"
+                   ],
+                  "answer": "How often has Jack got Maths?"
+            },
+{
+                  "id": 80,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "Don't", "at the hotel", "near", "the airport.", "stay"
+                   ],
+                  "answer": "Don't stay at the hotel near the airport."
+            },
+
+{
+                  "id": 81,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "fruit juice?", "you", "Would", "some", "like"
+                   ],
+                  "answer": "Would you like some fruit juice?"
+            },
+
+{
+                  "id": 82,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "chairs", "seventeen", "in the classroom.", "There are"
+                   ],
+                  "answer": "There are seventeen chairs in the classroom."
+            },
+{
+                  "id": 83,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "like?", "What", "animals", "Adam", "does"
+                   ],
+                  "answer": "What animals does Adam like?"
+            },
+
+{
+                  "id": 84,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "Vietnamese", "speak", "I", "and English.", "can"
+                   ],
+                  "answer": "I can speak Vietnamese and English."
+            },
+{
+                  "id": 85,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "Open", "your", "please.", "books,"
+                   ],
+                  "answer": "Open your book, please."
+            },
+
+{
+                  "id": 86,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "This", "is", "Van Gogh.", "by","a painting"
+                   ],
+                  "answer": "This is a painting by Van Gogh."
+            },
+{
+                  "id": 87,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "club", "the music", "and sing.", "Let's","go to"
+                   ],
+                  "answer": "Let's go to the music club and sing."
+            },
+{
+                  "id": 88,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "likes", "My brother", "his toy train", "playing with","a lot."
+                   ],
+                  "answer": "My brother likes playing with his toy train a lot."
+            },
+{
+                  "id": 89,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "Teacher's Day", "20th.", "is", "November","on"
+                   ],
+                  "answer": "Teacher's Day is on November 20th."
+            },
+{
+                  "id": 90,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "books", "me?", "do you", "give","How many"
+                   ],
+                  "answer": "How many books do you give me?"
+            },
+{
+                  "id": 91,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "schoolbag.", "I have", "in", "my","many pens"
+                   ],
+                  "answer": "I have many pens in my school bag."
+            },
+
+{
+                  "id": 92,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "very beautiful", "My teacher", "and friendly.", "looks"
+                   ],
+                  "answer": "My teacher looks very beautiful and friendly."
+            },
+{
+                  "id": 93,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "My father", "the park", "in", "every day.","runs"
+                   ],
+                  "answer": "My father runs in the park every day."
+            },
+{
+                  "id": 94,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "me", "Give", "notebook,", "that yellow","Peter."
+                   ],
+                  "answer": "Give me that yellow notebook, Peter."
+            },
+{
+                  "id": 95,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "does", "your mother", "What", "like?","look"
+                   ],
+                  "answer": "What does your mother look like?"
+            },
+{
+                  "id": 96,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "My sister", "can", "with a", "jump rope.","play"
+                   ],
+                  "answer": "My sister can play with a jump rope."
+            },
+{
+                  "id": 97,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "than", "Mr. Minh", "his", "wife.","is older"
+                   ],
+                  "answer": "Mr. Minh is older than his wife."
+            },
+{
+                  "id": 98,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "at the", "aquarium", "Were you", "morning?","yesterday"
+                   ],
+                  "answer": "Were you at the aquarium yesterday morning?"
+            },
+{
+                  "id": 99,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "in the sea.", "All of", "them", "swimming","enjoy"
+                   ],
+                  "answer": "All of them enjoy swimming in the sea."
+            },
+{
+                  "id": 100,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "He", "local market.", "vegetables", "at the","sells"
+                   ],
+                  "answer": "He sells vegetables at the local market."
+            },
+
+{
+                "id": 101,
+                  "question": "Fill in the blanks: Uncle John works hard from 7 am _ _ 6 pm every day. ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "to",
+                        "of",
+                        "at",
+                        "on"
+                   ],
+                  "answer": "to"
+            },
+
+{
+                "id": 102,
+                  "question": "Fill in the blanks: Is it a r_ _nd box? - No, it is a square box. ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "uo",
+                        "ou",
+                        "au",
+                        "ua"
+                   ],
+                  "answer": "ou"
+            },
+{
+                "id": 103,
+                  "question": "Fill in the blanks: Ha can play chess _ _ _ she cannot play football. ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "but",
+                        "not",
+                        "you",
+                        "does"
+                   ],
+                  "answer": "but"
+            },
+{
+                "id": 104,
+                  "question": "Fill in the blanks: How _ _ _ is he? - He is 10 years old. ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "are",
+                        "am",
+                        "you",
+                        "old"
+                   ],
+                  "answer": "old"
+            },
+{
+                "id": 105,
+                  "question": "Fill in the blanks: There are _ _ _ _ fingers is one hand.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "four",
+                        "seven",
+                        "five",
+                        "six"
+                   ],
+                  "answer": "five"
+            },
+{
+                "id": 106,
+                  "question": "Fill in the blanks: I want to _ _ a football player in the future. ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "in",
+                        "be",
+                        "at",
+                        "on"
+                   ],
+                  "answer": "be"
+            },
+{
+                "id": 107,
+                  "question": "Fill in the blanks: My brother is eight _ _ _ _ _ old.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "years",
+                        "yaers",
+                        "yaer",
+                        "year"
+                   ],
+                  "answer": "years"
+            },
+{
+                "id": 108,
+                  "question": "Fill in the blanks: They live _ _ Cat Ba Island. ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "to",
+                        "of",
+                        "at",
+                        "on"
+                   ],
+                  "answer": "on"
+            },
+{
+                "id": 109,
+                  "question": "Fill in the blanks: The museum is be_ _ _ _ _ the post office and the bakery.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "weent",
+                        "tween",
+                        "wente",
+                        "weetn"
+                   ],
+                  "answer": "tween"
+            },
+{
+                "id": 110,
+                  "question": "Fill in the blanks: I often write to Jack and tell him _ _ _ _ _ my school.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "round",
+                        "nears",
+                        "about",
+                        "around"
+                   ],
+                  "answer": "about"
+            },
+{
+                "id": 111,
+                  "question": "Fill in the blanks: Listen _ _ the teacher, please.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "to",
+                        "of",
+                        "at",
+                        "on"
+                   ],
+                  "answer": "to"
+            },
+{
+                "id": 112,
+                  "question": "Fill in the blanks: Put your toys aw_ _, Ben.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "ey",
+                        "aa",
+                        "ar",
+                        "ay"
+                   ],
+                  "answer": "ay"
+            },
+{
+                "id": 113,
+                  "question": "Fill in the blanks: My new pencils are _ _ the table.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "to",
+                        "of",
+                        "at",
+                        "on"
+                   ],
+                  "answer": "on"
+            },
+{
+                "id": 114,
+                  "question": "Fill in the blanks: Do you usually help your parents _ _ home?",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "to",
+                        "of",
+                        "at",
+                        "on"
+                   ],
+                  "answer": "at"
+            },
+{
+                "id": 115,
+                  "question": "Fill in the blanks: They get up early every day to _ _ morning exercises. ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "to",
+                        "of",
+                        "do",
+                        "on"
+                   ],
+                  "answer": "do"
+            },
+{
+                "id": 116,
+                  "question": "Fill in the blanks: Would you _ _ _ _ some orange juice? - No, thanks.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "like",
+                        "anys",
+                        "does",
+                        "done"
+                   ],
+                  "answer": "like"
+            },
+{
+                "id": 117,
+                  "question": "Fill in the blanks: It's very win_ _ in Ha Noi.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "dy",
+                        "ny",
+                        "di",
+                        "ni"
+                   ],
+                  "answer": "dy"
+            },
+{
+                "id": 118,
+                  "question": "Fill in the blanks: What's the d_ _ _ today? - It's October the second.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "ate",
+                        "eat",
+                        "eta",
+                        "tea"
+                   ],
+                  "answer": "ate"
+            },
+{
+                "id": 119,
+                  "question": "Fill in the blanks: _ _ _ _ _ are many large shopping malls in Ho Chi Minh City.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "These",
+                        "There",
+                        "Those",
+                        "Thats"
+                   ],
+                  "answer": "There"
+            },
+{
+                "id": 120,
+                  "question": "Fill in the blanks: My father is _ _ engineer.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "an",
+                        "on",
+                        "my",
+                        "in"
+                   ],
+                  "answer": "an"
+            },
+{
+                "id": 121,
+                  "question": "Fill in the blanks: H_ _ are you? - I'm fine.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "ow",
+                        "ou",
+                        "uw",
+                        "uo"
+                   ],
+                  "answer": "ow"
+            },
+{
+                "id": 122,
+                  "question": "Fill in the blanks: _ _ _ _ _ are you from? - I'm from Nha Trang.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "Whose",
+                        "When",
+                        "Wheer",
+                        "Where"
+                   ],
+                  "answer": "Where"
+            },
+{
+                "id": 123,
+                  "question": "Fill in the blanks: Jack w_ _ _ the zoo yesterday.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "etn",
+                        "ent",
+                        "net",
+                        "ten"
+                   ],
+                  "answer": "ent"
+            },{
+                "id": 124,
+                  "question": "Fill in the blanks: My aunt is a teacher _ _ Nguyen Dinh Chieu Primary School.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "at",
+                        "on",
+                        "in",
+                        "un"
+                   ],
+                  "answer": "at"
+            },
+{
+                "id": 125,
+                  "question": "Fill in the blanks: Good mo_ _ing, children. How are you?",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "rn",
+                        "nr",
+                        "ra",
+                        "mr"
+                   ],
+                  "answer": "rn"
+            },
+{
+                "id": 126,
+                  "question": "Fill in the blanks: They're g_ _ _ _ to travel to Hue this summer holiday.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "oneing",
+                        "oing",
+                        "oning",
+                        "iong"
+                   ],
+                  "answer": "oing"
+            },
+{
+                "id": 127,
+                  "question": "Fill in the blanks: What d_ _ _ your father do?",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "oes",
+                        "eos",
+                        "one",
+                        "eno"
+                   ],
+                  "answer": "oes"
+            },{
+                "id": 128,
+                  "question": "Fill in the blanks: My brother is standing next _ _ the boy in blue.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "at",
+                        "on",
+                        "to",
+                        "in"
+                   ],
+                  "answer": "to"
+            },
+{
+                "id": 129,
+                  "question": "Fill in the blanks: Who is Sue waiting _ _ _?",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "one",
+                        "for",
+                        "min",
+                        "at"
+                   ],
+                  "answer": "for"
+            },
+{
+                "id": 130,
+                  "question": "Fill in the blanks: What time _ _ you usually get up?",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "at",
+                        "do",
+                        "di",
+                        "ni"
+                   ],
+                  "answer": "do"
+            },
+{
+                "id": 131,
+                  "question": "Fill in the blanks: Tom is _ _ _  best student in my class.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "one",
+                        "and",
+                        "end",
+                        "the"
+                   ],
+                  "answer": "the"
+            },
+{
+                "id": 132,
+                  "question": "Fill in the blanks: My house is not far f_ _ _ here.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "rom",
+                        "omr",
+                        "orm",
+                        "oom"
+                   ],
+                  "answer": "rom"
+            },
+{
+                "id": 133,
+                  "question": "Fill in the blanks: Let's make a ci_cle.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "r",
+                        "d",
+                        "f",
+                        "i"
+                   ],
+                  "answer": "r"
+            },
+{
+                "id": 134,
+                  "question": "Fill in the blanks: We have Music _ _ Monday.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "in",
+                        "at",
+                        "on",
+                        "us"
+                   ],
+                  "answer": "on"
+            },
+{
+                "id": 135,
+                  "question": "Fill in the blanks: Are there a_ _ pets in Janie's house?",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "ny",
+                        "yn",
+                        "te",
+                        "et"
+                   ],
+                  "answer": "ny"
+            },
+{
+                "id": 136,
+                  "question": "Fill in the blanks: How _ _ _ _ are your new gloves? - They're 35,000 dong.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "many",
+                        "more",
+                        "much",
+                        "mora"
+                   ],
+                  "answer": "much"
+            },
+{
+                "id": 137,
+                  "question": "Fill in the blanks: What does your mother _ _ ? - She's a nurse.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "do",
+                        "in",
+                        "on",
+                        "at"
+                   ],
+                  "answer": "do"
+            },
+{
+                "id": 138,
+                  "question": "Fill in the blanks: What _ _ your favorite sport?",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "is",
+                        "do",
+                        "in",
+                        "at"
+                   ],
+                  "answer": "is"
+            },
+{
+                "id": 139,
+                  "question": "Fill in the blanks: I pl_ _ badminton every Monday.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "ay",
+                        "ey",
+                        "oy",
+                        "uy"
+                   ],
+                  "answer": "ay"
+            },
+{
+                "id": 140,
+                  "question": "Fill in the blanks: The birthday cake is _ _ _ you, Emma.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "for",
+                        "and",
+                        "one",
+                        "rof"
+                   ],
+                  "answer": "for"
+            },
+{
+                "id": 141,
+                  "question": "Fill in the blanks: We don't _ _ to school on sunday.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "go",
+                        "do",
+                        "on"    
+                   ],
+                  "answer": "go"
+            },
+{
+                "id": 142,
+                  "question": "Fill in the blanks: The room is _ _ _ dirty. We don't need to clean it.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "don",
+                        "not",
+                        "so",
+                        "the"
+                   ],
+                  "answer": "not"
+            },
+{
+                "id": 143,
+                  "question": "Fill in the blanks: Do you ha_ _ any interesting activities at your job?",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "ve",
+                        "ev",
+                        "re",
+                        "er"
+                   ],
+                  "answer": "ve"
+            },
+{
+                "id": 144,
+                  "question": "Fill in the blanks: There are many pictures _ _ my family on the wall.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "on",
+                        "of",
+                        "in",
+                        "in"
+                   ],
+                  "answer": "of"
+            },
+{
+                "id": 145,
+                  "question": "Fill in the blanks: I want to have a pen friend from It_ly.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "a",
+                        "e",
+                        "i",
+                        "o"
+                   ],
+                  "answer": "a"
+            },
+{
+                "id": 146,
+                  "question": "Fill in the blanks: AUG_ST",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "O",
+                        "A",
+                        "I",
+                        "U"
+                   ],
+                  "answer": "U"
+            },
+{
+                "id": 147,
+                  "question": "Fill in the blanks: I'm very s_ _ _ _. I'm late for the class today.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "orry",
+                        "yrro",
+                        "rrou",
+                        "oyrr"
+                   ],
+                  "answer": "orry"
+            },
+{
+                "id": 148,
+                  "question": "Fill in the blanks: My birthday is _ _ September.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "on",
+                        "at",
+                        "in",
+                        "so"
+                   ],
+                  "answer": "in"
+            },
+{
+                "id": 149,
+                  "question": "Fill in the blanks: What ab_ _ _ an apple? - Yes, please.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "uot",
+                        "out",
+                        "tou",
+                        "tuo"
+                   ],
+                  "answer": "out"
+            },
+{
+                "id": 150,
+                  "question": "Fill in the blanks: Kim never stays _ _ late at night.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "on",
+                        "do",
+                        "up",
+                        "in"
+                   ],
+                  "answer": "up"
+            }
+      ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
