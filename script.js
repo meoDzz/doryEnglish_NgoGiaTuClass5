@@ -17,6 +17,7 @@ const loginMessage = document.getElementById('login-message');
 const timeLeftSpan = document.getElementById('time-left');
 const resultMessage = document.getElementById('result-message');
 const resultDetail = document.getElementById('result-detail');
+const loadingPopup = document.getElementById('loading-popup');
 
 let currentQuestions = [];
 let loggedInStudent = null;
@@ -328,6 +329,7 @@ async function submitQuiz(isAutoSubmit = false) {
     loginMessage.textContent = "Đang nộp bài..."; // Tận dụng thẻ p thông báo
     // (Phần fetch gửi lên GAS giữ nguyên như cũ)
     try {
+        showLoadingPopup();
         const req = await fetch(GAS_URL, {
             method: 'POST',
             body: JSON.stringify(payload)
@@ -350,6 +352,8 @@ async function submitQuiz(isAutoSubmit = false) {
         }
     } catch (e) {
         alert("Lỗi mạng (Đã lưu điểm tạm thời): " + finalScoreStr);
+    } finally {
+        hideLoadingPopup();
     }
 }
 
@@ -396,6 +400,18 @@ function updateTimerDisplay(timer) {
     seconds = seconds < 10 ? "0" + seconds : seconds;
     timeLeftSpan.textContent = minutes + ":" + seconds;
     if (timer < 60) timeLeftSpan.style.color = "red";
+}
+
+function showLoadingPopup() {
+    if (loadingPopup) {
+        loadingPopup.classList.remove('hidden');
+    }
+}
+
+function hideLoadingPopup() {
+    if (loadingPopup) {
+        loadingPopup.classList.add('hidden');
+    }
 }
 
 window.moveWord = function (btn, idx) {
