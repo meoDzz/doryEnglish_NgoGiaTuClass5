@@ -1,177 +1,488 @@
-/* --- CƠ BẢN --- */
-body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f6f9; display: flex; justify-content: center; padding: 20px; min-height: 100vh; }
-.hidden { display: none !important; }
-#login-container, #quiz-container, #result-container { background: white; padding: 30px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); width: 100%; max-width: 800px; }
+* {
+    box-sizing: border-box;
+}
 
-/* --- INPUT & BUTTON --- */
-input, select, button { width: 100%; padding: 12px; margin: 8px 0; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box; }
-button { background-color: #007bff; color: white; border: none; font-weight: bold; cursor: pointer; transition: 0.3s; }
-button:hover { background-color: #0056b3; }
-button:disabled { background-color: #ccc; cursor: not-allowed; }
+:root {
+    --bg1: #ffe6f2;
+    --bg2: #e8f0ff;
+    --bg3: #e8fff7;
+    --primary: #7b61ff;
+    --primary-2: #49c6ff;
+    --secondary: #ff78b2;
+    --secondary-2: #ff9f68;
+    --text: #2b2f55;
+    --muted: #6f7698;
+    --card: rgba(255, 255, 255, 0.82);
+    --white: #ffffff;
+    --shadow: 0 20px 45px rgba(96, 109, 177, 0.18);
+    --radius-xl: 28px;
+    --radius-lg: 20px;
+    --radius-md: 16px;
+}
 
-/* --- CÂU HỎI --- */
-.question-block { margin-bottom: 30px; padding-bottom: 20px; border-bottom: 1px solid #eee; }
-.question-text { font-weight: 600; font-size: 1.1em; color: #333; margin-bottom: 15px; }
-.question-media { text-align: center; margin-bottom: 15px; }
-.q-img { max-width: 100%; max-height: 200px; border-radius: 8px; }
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    font-family: "Nunito", sans-serif;
+    color: var(--text);
+}
 
-/* --- DẠNG TRẮC NGHIỆM (TEXT) --- */
-.options label { display: block; padding: 10px; background: #f9f9f9; margin-bottom: 5px; border-radius: 5px; cursor: pointer; }
-.options label:hover { background: #eef; }
-.options input { width: auto; margin-right: 10px; }
+body {
+    background:
+        radial-gradient(circle at 0% 0%, #ffd6ea 0, transparent 28%),
+        radial-gradient(circle at 100% 0%, #d8e9ff 0, transparent 30%),
+        radial-gradient(circle at 100% 100%, #d8fff2 0, transparent 26%),
+        linear-gradient(135deg, #fdf3ff 0%, #eef5ff 50%, #f0fff8 100%);
+    padding: 24px;
+    position: relative;
+    overflow-x: hidden;
+}
 
-/* --- DẠNG TRẮC NGHIỆM (ẢNH) --- */
-.options-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; }
-@media(min-width:600px) { .options-grid { grid-template-columns: repeat(4, 1fr); } }
-.option-image-box { border: 2px solid #eee; padding: 5px; border-radius: 8px; cursor: pointer; transition: 0.2s; text-align: center; }
-.option-image-box img { width: 100%; height: 100px; object-fit: contain; }
-.option-image-box:has(input:checked) { border-color: #007bff; background: #e7f3ff; }
-/* Fallback cho trình duyệt cũ */
-.option-image-box input:checked + img { border: 3px solid #007bff; }
+body::before,
+body::after {
+    content: "";
+    position: fixed;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    filter: blur(12px);
+    opacity: 0.45;
+    z-index: 0;
+    animation: floatBlob 9s ease-in-out infinite;
+}
 
-/* --- DẠNG ĐIỀN TỪ --- */
-.fill-input { border: 2px solid #007bff; background: #fffdf0; font-weight: bold; }
+body::before {
+    top: 40px;
+    left: -70px;
+    background: #ffd2ea;
+}
 
-/* --- DẠNG SẮP XẾP ẢNH --- */
-.arrange-container { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
-.arrange-item { position: relative; border: 1px solid #ddd; padding: 10px; border-radius: 8px; text-align: center; }
-.arrange-label { position: absolute; top: 5px; left: 5px; background: #007bff; color: white; width: 25px; height: 25px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; }
-.arrange-item img { width: 100%; height: 80px; object-fit: cover; }
-.arrange-input { width: 60px; text-align: center; font-weight: bold; margin-top: 5px; }
+body::after {
+    right: -70px;
+    bottom: 20px;
+    background: #cfe8ff;
+    animation-delay: 1.5s;
+}
 
-/* --- DẠNG SẮP XẾP TỪ --- */
-.answer-zone { min-height: 50px; border-bottom: 2px dashed #aaa; padding: 10px; margin-bottom: 15px; display: flex; flex-wrap: wrap; gap: 10px; background: #fff; }
-.word-bank { display: flex; flex-wrap: wrap; gap: 10px; }
-.word-btn { width: auto; background: white; border: 1px solid #ccc; border-radius: 20px; padding: 5px 15px; box-shadow: 0 2px 0 #ddd; color: #333; }
-.word-btn.selected { background: #e7f3ff; border-color: #007bff; color: #007bff; }
+@keyframes floatBlob {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-18px); }
+}
 
-/* --- THÔNG BÁO --- */
-.message { text-align: center; margin-top: 10px; font-weight: bold; }
-.message.error { color: red; }
-.message.success { color: green; }
+.hidden {
+    display: none !important;
+}
 
+#login-container,
+#quiz-container,
+#result-container,
+#welcome-container {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+}
 
+#login-container,
+.result-box,
+#welcome-container .result-box {
+    max-width: 620px;
+    margin: 30px auto;
+    background: var(--card);
+    backdrop-filter: blur(14px);
+    border: 1px solid rgba(255, 255, 255, 0.75);
+    border-radius: var(--radius-xl);
+    padding: 34px 28px;
+    box-shadow: var(--shadow);
+    text-align: center;
+}
 
-/* Thêm vào style.css */
+.logo-header {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+}
+
+.academy-logo {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 22px;
+    border: 4px solid rgba(255,255,255,0.9);
+    background: white;
+    box-shadow: 0 12px 24px rgba(122, 130, 187, 0.18);
+}
+
+h1, h2, h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: var(--text);
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 0.2px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.sub-title {
+    margin: 0 0 22px;
+    color: var(--muted);
+    font-size: 16px;
+}
+
+.input-group {
+    display: grid;
+    gap: 14px;
+    margin: 20px 0 16px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+.fill-input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 15px 16px;
+    font-size: 16px;
+    border-radius: 18px;
+    background: rgba(248, 250, 255, 0.96);
+    color: var(--text);
+    box-shadow: inset 0 0 0 1.5px rgba(128, 141, 210, 0.18);
+    transition: 0.22s ease;
+}
+
+input::placeholder {
+    color: #97a0bf;
+}
+
+input:focus,
+.fill-input:focus {
+    transform: translateY(-1px);
+    background: white;
+    box-shadow:
+        inset 0 0 0 2px rgba(123, 97, 255, 0.35),
+        0 10px 20px rgba(115, 118, 217, 0.12);
+}
+
+button {
+    font-family: "Nunito", sans-serif;
+}
+
+#start-btn,
+.primary-btn,
+.secondary-btn,
+.audio-btn,
+.word-btn {
+    border: none;
+    cursor: pointer;
+    transition: 0.22s ease;
+    font-weight: 800;
+}
+
+#start-btn,
+.primary-btn {
+    background: linear-gradient(135deg, var(--primary), var(--primary-2));
+    color: white;
+    border-radius: 18px;
+    padding: 15px 20px;
+    box-shadow: 0 14px 28px rgba(105, 114, 255, 0.25);
+}
+
+#start-btn {
+    width: 100%;
+    font-size: 17px;
+    margin-top: 4px;
+}
+
+#start-btn:hover,
+.primary-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 18px 30px rgba(105, 114, 255, 0.28);
+}
+
+.secondary-btn {
+    background: linear-gradient(135deg, var(--secondary), var(--secondary-2));
+    color: white;
+    border-radius: 18px;
+    padding: 15px 20px;
+    box-shadow: 0 14px 26px rgba(255, 132, 173, 0.22);
+}
+
+.secondary-btn:hover {
+    transform: translateY(-2px);
+}
+
+.message {
+    min-height: 24px;
+    margin-top: 14px;
+    font-weight: 700;
+    color: #e2548b;
+}
+
+#quiz-container {
+    background: var(--card);
+    backdrop-filter: blur(14px);
+    border: 1px solid rgba(255,255,255,0.72);
+    border-radius: var(--radius-xl);
+    padding: 26px;
+    box-shadow: var(--shadow);
+    margin-top: 18px;
+}
 
 .quiz-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #fff;
-    padding: 15px;
-    border-bottom: 2px solid #007bff;
-    
-    /* Làm đồng hồ dính chặt lên trên cùng khi cuộn */
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    gap: 16px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(130, 144, 210, 0.16);
+}
+
+.header-info p {
+    margin: 0;
+    color: var(--muted);
 }
 
 #timer {
-    font-size: 1.2em;
-    font-weight: bold;
-    color: #d9534f; /* Màu đỏ cho khẩn cấp */
-    background: #fff;
-    padding: 5px 10px;
-    border-radius: 5px;
-    border: 2px solid #d9534f;
-}
-
-/* Thêm style cho tiêu đề từng vòng phân cách */
-.round-divider {
-    background-color: #8ec1f3;
-    color: #495057;
-    padding: 10px;
-    margin: 20px 0 10px 0;
-    font-weight: bold;
-    text-transform: uppercase;
-    border-left: 5px solid #ec8927;
-    border-radius: 4px;
-}
-
-/* --- STYLE CHO LOGO TRUNG TÂM --- */
-.logo-header {
-    display: flex;
-    justify-content: center; /* Căn giữa 2 logo */
-    align-items: center;
-    gap: 20px; /* Khoảng cách giữa 2 logo */
-    margin-bottom: 20px; /* Khoảng cách từ logo xuống tiêu đề */
-}
-
-.academy-logo {
-    max-height: 200px; /* Chiều cao tối đa, tránh logo quá to */
-    max-width: 45%;   /* Đảm bảo 2 logo không bị tràn ra ngoài trên điện thoại */
-    object-fit: contain; /* Giữ nguyên tỷ lệ ảnh không bị méo */
-    display: block;
-}
-
-
-
-/* --- NÚT NGHE AUDIO MỚI --- */
-.audio-btn {
-    background-color: #28a745; /* Màu xanh lá */
+    min-width: 180px;
+    text-align: center;
+    background: linear-gradient(135deg, #ff83ac, #ff7f5f);
     color: white;
-    border: none;
-    padding: 8px 15px;
-    border-radius: 20px;
+    border-radius: 22px;
+    padding: 14px 18px;
+    font-weight: 800;
+    box-shadow: 0 14px 26px rgba(255, 127, 149, 0.24);
+}
+
+#time-left {
+    display: block;
+    margin-top: 6px;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+#questions-wrapper {
+    min-height: 280px;
+}
+
+.question-block {
+    background: rgba(255,255,255,0.96);
+    border-radius: 24px;
+    padding: 24px;
+    box-shadow: 0 14px 28px rgba(108, 123, 196, 0.12);
+}
+
+.question-text {
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 18px;
+    color: #243066;
+}
+
+.question-media {
+    margin-bottom: 18px;
+}
+
+.q-img {
+    max-width: 100%;
+    border-radius: 18px;
+    box-shadow: 0 10px 22px rgba(90, 106, 172, 0.16);
+}
+
+.options,
+.options-grid {
+    display: grid;
+    gap: 14px;
+}
+
+.options-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.options label,
+.option-image-box {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 15px 16px;
+    border-radius: 18px;
+    background: linear-gradient(135deg, #ffffff, #f5f8ff);
+    box-shadow: inset 0 0 0 1.5px rgba(131, 145, 212, 0.15);
+    transition: 0.2s ease;
     cursor: pointer;
-    font-size: 0.9em;
+}
+
+.options label:hover,
+.option-image-box:hover {
+    transform: translateY(-2px);
+    box-shadow:
+        inset 0 0 0 2px rgba(123, 97, 255, 0.18),
+        0 10px 18px rgba(111, 122, 207, 0.12);
+}
+
+.option-image-box {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.option-image-box img {
+    max-width: 100%;
+    border-radius: 14px;
+}
+
+.audio-box {
+    margin-bottom: 14px;
+}
+
+.audio-btn {
+    background: linear-gradient(135deg, #ffb054, #ff7d8c);
+    color: white;
+    border-radius: 16px;
+    padding: 12px 16px;
+    box-shadow: 0 12px 22px rgba(255, 145, 124, 0.2);
+}
+
+.audio-btn.playing {
+    background: linear-gradient(135deg, #7b61ff, #37c9ff);
+}
+
+.answer-zone,
+.word-bank {
+    min-height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 14px;
+    border-radius: 18px;
+    background: #f7f9ff;
+    box-shadow: inset 0 0 0 1.5px rgba(127, 142, 205, 0.14);
+}
+
+.rearrange-container,
+.arrange-container {
+    display: grid;
+    gap: 14px;
+}
+
+.word-btn {
+    background: linear-gradient(135deg, #ffffff, #edf3ff);
+    color: #37406f;
+    border-radius: 14px;
+    padding: 10px 14px;
+    box-shadow: 0 8px 16px rgba(109, 119, 184, 0.12);
+}
+
+.word-btn.selected {
+    background: linear-gradient(135deg, var(--primary), var(--primary-2));
+    color: white;
+}
+
+.arrange-item {
+    text-align: center;
+    padding: 16px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #ffffff, #f7fbff);
+    box-shadow: inset 0 0 0 1.5px rgba(125, 139, 204, 0.12);
+}
+
+.arrange-label {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
     display: inline-flex;
     align-items: center;
-    gap: 5px;
-    width: auto; /* Không chiếm hết dòng */
+    justify-content: center;
+    color: white;
+    font-weight: 800;
+    background: linear-gradient(135deg, #7b61ff, #49c6ff);
+    margin-bottom: 10px;
 }
 
-.audio-btn:hover {
-    background-color: #218838;
+.arrange-item img {
+    max-width: 100%;
+    border-radius: 14px;
+    margin: 8px 0 12px;
 }
 
-.audio-btn:disabled {
-    background-color: #ccc;
-    cursor: not-allowed;
-}
-
-.playing {
-    background-color: #dc3545 !important; /* Màu đỏ khi đang phát */
-    animation: pulse 1.5s infinite;
-}
-
-@keyframes pulse {
-    0% { box-shadow: 0 0 0 0 rgba(220, 53, 69, 0.7); }
-    70% { box-shadow: 0 0 0 10px rgba(220, 53, 69, 0); }
-    100% { box-shadow: 0 0 0 0 rgba(220, 53, 69, 0); }
-}
-
-/* --- THANH ĐIỀU HƯỚNG --- */
 .control-bar {
     display: flex;
-    justify-content: space-between; /* Đẩy 2 nút ra 2 góc */
-    align-items: center;
-    margin-top: 20px;
-    padding-top: 20px;
-    border-top: 1px solid #eee;
+    justify-content: space-between;
+    gap: 14px;
+    margin-top: 22px;
 }
 
-.primary-btn {
-    background-color: #007bff;
-    color: white;
-    padding: 12px 30px;
-    font-size: 1.1em;
-    border-radius: 8px;
-    border: none;
-    cursor: pointer;
-    transition: 0.3s;
+.result-box {
+    position: relative;
 }
-.primary-btn:hover { background-color: #0056b3; box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
 
-.secondary-btn {
-    background-color: #6c757d; /* Màu xám */
-    color: white;
-    padding: 10px 20px;
-    border-radius: 8px;
-    border: none;
-    cursor: pointer;
+.result-icon {
+    font-size: 54px;
+    margin-bottom: 8px;
 }
-.secondary-btn:hover { background-color: #5a6268; }
+
+#result-detail {
+    color: var(--muted);
+    line-height: 1.8;
+}
+
+#student-info-box {
+    background: linear-gradient(135deg, #ffffff, #f7f9ff);
+    border-radius: 20px;
+    padding: 18px;
+    box-shadow: inset 0 0 0 1.5px rgba(129, 143, 205, 0.12);
+}
+
+#welcome-container .primary-btn {
+    min-width: 220px;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 14px;
+    }
+
+    #login-container,
+    .result-box,
+    #quiz-container,
+    #welcome-container .result-box {
+        padding: 20px;
+        border-radius: 22px;
+    }
+
+    .quiz-header,
+    .control-bar {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    #timer {
+        min-width: unset;
+    }
+
+    .academy-logo {
+        width: 68px;
+        height: 68px;
+    }
+
+    .question-text {
+        font-size: 19px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+}

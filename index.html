@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="vi">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
 
 <head>
     <meta charset="UTF-8">
@@ -20,14 +23,37 @@
         <p class="sub-title"> Cuộc thi Tiếng Anh Online Khối 4 OIK: 3 Vòng - 10 Phút</p>
 
         <div class="input-group">
-            <input type="text" id="student-name" placeholder="Họ và Tên">
-            <input type="text" id="student-class" placeholder="Lớp">
             <input type="text" id="student-sbd" placeholder="Số Báo Danh (SBD)">
             <input type="password" id="student-password" placeholder="Mật khẩu (Ngày sinh ddmmyyyy)">
+            
+            <!-- 2 ô này để hệ thống tự điền sau khi đăng nhập đúng -->
+            <input type="text" hidden id="student-name" placeholder="Họ và Tên" readonly>
+            <input type="text" hidden id="student-class" placeholder="Lớp" readonly>
         </div>
 
-        <button id="start-btn">Vào Thi Ngay</button>
+        <button id="start-btn">Kiểm tra thông tin thí sinh</button>
         <p id="login-message" class="message"></p>
+    </div>
+
+    <div id="welcome-container" class="hidden">
+        <div class="result-box">
+            <h2>Chào mừng đến với Cuộc thi Tiếng Anh Online</h2>
+            <div class="result-icon">🎓</div>
+
+            <p id="welcome-message" class="message" style="color:#007bff; font-weight:bold;"></p>
+
+            <div id="student-info-box" style="margin-top:15px; text-align:left; line-height:1.8;">
+                <p><strong>Họ và tên:</strong> <span id="welcome-name"></span></p>
+                <p><strong>Lớp:</strong> <span id="welcome-class"></span></p>
+                <p><strong>Số báo danh:</strong> <span id="welcome-sbd"></span></p>
+                <p><strong>Thời gian làm bài:</strong> 10 phút</p>
+                <p><strong>Lưu ý:</strong> Sau khi bấm <b>Vào thi ngay</b>, hệ thống sẽ bắt đầu tính giờ.</p>
+            </div>
+
+            <button id="enter-exam-btn" class="primary-btn" style="margin-top:20px;">
+                Vào thi ngay
+            </button>
+        </div>
     </div>
 
     <div id="quiz-container" class="hidden">
@@ -39,9 +65,6 @@
             <div id="timer">
                 Thời gian còn lại: <span id="time-left">10:00</span>
             </div>
-        </div>
-
-        <div id="questions-wrapper">
         </div>
 
         <div id="questions-wrapper">

@@ -1,5 +1,12 @@
 // ⚠️ GIỮ NGUYÊN LINK GAS CŨ CỦA BẠN
-const GAS_URL = "https://script.google.com/macros/s/AKfycbw7XHxuPmFba4GTc0vmD458ohYRSbmIxMCkhs4DK0Qt9PBmEMe7HGarkjNd6YRqO9t8/exec";
+const GAS_URL = "https://script.google.com/macros/s/AKfycbxUv4H5_-0zpT1BS4JVZNfDdpxp-xKkZoLlGwKeZWJ-V6tyFogkfOxjpa_a7MpGhnDe/exec";
+
+const welcomeContainer = document.getElementById('welcome-container');
+const welcomeMessage = document.getElementById('welcome-message');
+const welcomeName = document.getElementById('welcome-name');
+const welcomeClass = document.getElementById('welcome-class');
+const welcomeSbd = document.getElementById('welcome-sbd');
+const enterExamBtn = document.getElementById('enter-exam-btn');
 
 // DOM Elements
 const loginContainer = document.getElementById('login-container');
@@ -12,10 +19,11 @@ const resultMessage = document.getElementById('result-message');
 const resultDetail = document.getElementById('result-detail');
 
 let currentQuestions = [];
+let loggedInStudent = null;
 let timerInterval;
 const TOTAL_TIME = 10 * 60; // 15 phút
 let startTime;
-
+let currentIndex = 0;
 const globalAudio = new Audio();
 let currentPlayingBtn = null;
 
@@ -23,42 +31,88 @@ let currentPlayingBtn = null;
 
 // --- 1. HÀM BẮT ĐẦU ---
 async function startQuiz() {
-    const sbd = document.getElementById('student-sbd').value;
-    const name = document.getElementById('student-name').value;
-    const pass = document.getElementById('student-password').value;
+    const sbd = document.getElementById('student-sbd').value.trim();
+    const pass = document.getElementById('student-password').value.trim();
 
-    if (!sbd || !name || !pass) {
-        loginMessage.textContent = "Vui lòng điền đủ thông tin!";
+    if (!sbd || !pass) {
+        loginMessage.textContent = "Vui lòng nhập SBD và mật khẩu!";
         return;
     }
 
-    loginMessage.textContent = "Đang tải đề thi...";
+    loginMessage.textContent = "Đang kiểm tra thông tin đăng nhập...";
 
     try {
+        const loginReq = await fetch(GAS_URL, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'text/plain;charset=utf-8'
+            },
+            body: JSON.stringify({
+                action: 'login',
+                sbd: sbd,
+                password: pass
+            })
+        });
+
+        const loginRes = await loginReq.json();
+
+        if (!loginRes.success) {
+            loginMessage.textContent = loginRes.message;
+            return;
+        }
+
+        // Lưu thông tin thí sinh
+        loggedInStudent = {
+            sbd: sbd,
+            name: loginRes.name || "",
+            studentClass: loginRes.studentClass || "",
+            password: pass
+        };
+
+        // Đổ dữ liệu ra form ẩn
+        document.getElementById('student-name').value = loggedInStudent.name;
+        document.getElementById('student-class').value = loggedInStudent.studentClass;
+
+        // Hiện màn hình chào mừng
+        welcomeMessage.textContent = `Xin chào ${loggedInStudent.name}!`;
+        welcomeName.textContent = loggedInStudent.name;
+        welcomeClass.textContent = loggedInStudent.studentClass;
+        welcomeSbd.textContent = loggedInStudent.sbd;
+
+        loginContainer.classList.add('hidden');
+        welcomeContainer.classList.remove('hidden');
+
+    } catch (err) {
+        loginMessage.textContent = "Lỗi đăng nhập: " + err.message;
+        console.error(err);
+    }
+}
+
+async function enterExam() {
+    try {
+        enterExamBtn.disabled = true;
+        enterExamBtn.textContent = "Đang tải đề thi...";
+
         const res = await fetch('questionkhoi4.json');
         const data = await res.json();
 
-        // 1. Lấy tất cả câu hỏi từ danh sách chung
         let allQuestions = data.questions || [];
-
         if (allQuestions.length === 0) throw new Error("Không có câu hỏi.");
 
-        // 2. XÁO TRỘN THỨ TỰ CÂU HỎI
-        // Nếu bạn muốn lấy hết: giữ nguyên
-        // Nếu bạn muốn lấy ngẫu nhiên 20 câu trong kho 100 câu: .slice(0, 20)
         currentQuestions = shuffleArray(allQuestions);
 
-        // 3. Render và bắt đầu
         renderQuestions();
         startTime = new Date();
 
-        loginContainer.classList.add('hidden');
+        welcomeContainer.classList.add('hidden');
         quizContainer.classList.remove('hidden');
         startTimer(TOTAL_TIME);
 
     } catch (err) {
-        loginMessage.textContent = "Lỗi tải đề: " + err.message;
+        alert("Lỗi tải đề: " + err.message);
         console.error(err);
+        enterExamBtn.disabled = false;
+        enterExamBtn.textContent = "Vào thi ngay";
     }
 }
 
@@ -260,16 +314,16 @@ async function submitQuiz(isAutoSubmit = false) {
     // C. Gửi đi (Giữ nguyên logic cũ)
     const finalScoreStr = `${score}/${totalQuestions}`;
     const payload = {
-        sbd: document.getElementById('student-sbd').value,
-        name: document.getElementById('student-name').value,
-        class: document.getElementById('student-class').value,
-        password: document.getElementById('student-password').value,
+        action: 'submit',
+        sbd: document.getElementById('student-sbd').value.trim(),
+        name: document.getElementById('student-name').value.trim(),
+        studentClass: document.getElementById('student-class').value.trim(),
+        password: document.getElementById('student-password').value.trim(),
         answers: answers,
         score: finalScoreStr,
         submitTime: submitDateStr,
         duration: durationStr
     };
-
     // UI Nộp bài
     loginMessage.textContent = "Đang nộp bài..."; // Tận dụng thẻ p thông báo
     // (Phần fetch gửi lên GAS giữ nguyên như cũ)
@@ -420,6 +474,27 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log("Đã kết nối nút Bắt đầu thành công!");
     } else {
         console.error("Lỗi: Không tìm thấy nút 'start-btn' trong HTML. Kiểm tra lại ID!");
+    }
+
+    if (submitBtn) {
+        submitBtn.addEventListener('click', () => submitQuiz(false));
+    }
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    const startBtn = document.getElementById('start-btn');
+    const submitBtn = document.getElementById('submit-btn');
+
+    if (startBtn) {
+        startBtn.addEventListener('click', startQuiz);
+        console.log("Đã kết nối nút đăng nhập thành công!");
+    } else {
+        console.error("Lỗi: Không tìm thấy nút 'start-btn'.");
+    }
+
+    if (enterExamBtn) {
+        enterExamBtn.addEventListener('click', enterExam);
+        console.log("Đã kết nối nút vào thi ngay!");
     }
 
     if (submitBtn) {
