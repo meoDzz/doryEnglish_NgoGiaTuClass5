@@ -1,0 +1,1706 @@
+{
+      "questions": [
+            {
+                  "id": 1,
+                  "question": "Listen and choose the correct answer: What does Nam do every Tuesday afternoon?",
+                  "questionType": "multiple_choice",
+                  "audio": "Database_anHai/Nghe/nghecau1.mp3",
+                  "limitListen": true,
+                  "options": [
+                       "A. He plays football.",
+                       "B. He does judo.",
+                       "C. He goes to the library."
+                  ],
+                  "answer": "B. He does judo."
+            },
+            {
+                  "id": 2,
+                  "question": "Listen and choose the correct answer: Where is the cat?",
+                  "questionType": "multiple_choice",
+                  "audio": "Database_anHai/Nghe/nghecau2.mp3",
+                  "limitListen": true,
+                  "options": [
+                       "A. Under the table.",
+                       "B. On the sofa.",
+                       "C. Behind the TV."
+                  ],
+                  "answer": "C. Behind the TV."
+            },
+                {
+                  "id": 3,
+                  "question": "Listen and choose the correct answer: What does Mai's best friend look like?",
+                  "questionType": "multiple_choice",
+                  "audio": "Database_anHai/Nghe/nghecau3.mp3",
+                  "limitListen": true,
+                  "options": [
+                       "A. She has short hair.",
+                       "B. She has long hair.",
+                       "C. She wears glasses."
+                  ],
+                  "answer": "B. She has long hair."
+            },
+ {
+                  "id": 4,
+                  "question": "Listen and choose the correct answer: Where is the supermarket?",
+                  "questionType": "multiple_choice",
+                  "audio": "Database_anHai/Nghe/nghecau4.mp3",
+                  "limitListen": true,
+                  "options": [
+                       "A. Opposite the cinema.",
+                       "B. Next to the post office.",
+                       "C. At the end of the street."
+                  ],
+                  "answer": "B. Next to the post office."
+            },
+ {
+                  "id": 5,
+                  "question": "Listen and choose the correct answer: What should they take for the hiking trip?",
+                  "questionType": "multiple_choice",
+                  "audio": "Database_anHai/Nghe/nghecau5.mp3",
+                  "limitListen": true,
+                  "options": [
+                       "A. Compass.",
+                       "B. Raincoat.",
+                       "C. Sun hat."
+                  ],
+                  "answer": "B. Raincoat."
+            },
+             {
+                  "id": 6,
+                  "question": "Listen and choose the correct answer: What is the most important festival in Viet Nam?",
+                  "questionType": "multiple_choice",
+                  "audio": "Database_anHai/Nghe/nghecau6.mp3",
+                  "limitListen": true,
+                  "options": [
+                       "A. Christmas.",
+                       "B. Tet.",
+                       "C. Mid-Autumn Festival."
+                  ],
+                  "answer": "B. Tet."
+            },
+ {
+                  "id": 7,
+                  "question": "Listen and choose the correct answer: Which program does Tom like watching most?",
+                  "questionType": "multiple_choice",
+                  "audio": "Database_anHai/Nghe/nghecau7.mp3",
+                  "limitListen": true,
+                  "options": [
+                       "A. Cartoons.",
+                       "B. Sport news.",
+                       "C. Science programs."
+                  ],
+                  "answer": "C. Science programs."
+            },
+{
+                  "id": 8,
+                  "question": "Listen and choose the correct answer: What sport did Duy play yesterday?",
+                  "questionType": "multiple_choice",
+                  "audio": "Database_anHai/Nghe/nghecau8.mp3",
+                  "limitListen": true,
+                  "options": [
+                       "A. Basketball",
+                       "B. Table tennis",
+                       "C. Badminton"
+                  ],
+                  "answer": "C. Badminton"
+            },  
+{
+                  "id": 9,
+                  "question": "Listen and choose the correct answer: How is the weather in London today?",
+                  "questionType": "multiple_choice",
+                  "audio": "Database_anHai/Nghe/nghecau9.mp3",
+                  "limitListen": true,
+                  "options": [
+                       "A. Sunny",
+                       "B. Rainy",
+                       "C. Cloudy"
+                  ],
+                  "answer": "B. Rainy"
+            },  
+{
+                  "id": 10,
+                  "question": "Listen and choose the correct answer: What can the robot do in the future?",
+                  "questionType": "multiple_choice",
+                  "audio": "Database_anHai/Nghe/nghecau10.mp3",
+                  "limitListen": true,
+                  "options": [
+                       "A. Cook meals",
+                       "B. Fly a plane",
+                       "C. Build a house"
+                  ],
+                  "answer": "A. Cook meals"
+            }, 
+{
+                  "id": 11,
+                  "question": "Listen and choose the correct answer: Why should we use reusable bags?",
+                  "questionType": "multiple_choice",
+                  "audio": "Database_anHai/Nghe/nghecau11.mp3",
+                  "limitListen": true,
+                  "options": [
+                       "A. To save money",
+                       "B. To protect the environment",
+                       "C. To be fashionable"
+                  ],
+                  "answer": "B. To protect the environment"
+            }, 
+{
+                  "id": 12,
+                  "question": "Listen and choose the correct answer: What room is the newest in Phong’s house?",
+                  "questionType": "multiple_choice",
+                  "audio": "Database_anHai/Nghe/nghecau12.mp3",
+                  "limitListen": true,
+                  "options": [
+                       "A. The bedroom",
+                       "B. The kitchen",
+                       "C. The bathroom"
+                  ],
+                  "answer": "B. The kitchen"
+            }, 
+{
+                  "id": 13,
+                  "question": "Listen and choose the correct answer: How many students are there in the computer club?",
+                  "questionType": "multiple_choice",
+                  "audio": "Database_anHai/Nghe/nghecau13.mp3",
+                  "limitListen": true,
+                  "options": [
+                       "A. 15",
+                       "B. 50",
+                       "C. 25"
+                  ],
+                  "answer": "C. 25"
+            }, 
+{
+                  "id": 14,
+                  "question": "Listen and choose the correct answer: What does the girl need to buy for the new school year?",
+                  "questionType": "multiple_choice",
+                  "audio": "Database_anHai/Nghe/nghecau14.mp3",
+                  "limitListen": true,
+                  "options": [
+                       "A. A calculator",
+                       "B. A school bag",
+                       "C. Some notebooks"
+                  ],
+                  "answer": "A. A calculator"
+            }, 
+{
+                  "id": 15,
+                  "question": "Listen and choose the correct answer: What are they doing at the moment?",
+                  "questionType": "multiple_choice",
+                  "audio": "Database_anHai/Nghe/nghecau15.mp3",
+                  "limitListen": true,
+                  "options": [
+                       "A. Planting trees",
+                       "B. Picking up rubbish",
+                       "C. Watering flowers"
+                  ],
+                  "answer": "B. Picking up rubbish"
+            }, 
+{
+                  "id": 16,
+                  "question": "Listen and choose the correct answer: Which city is more expensive, Tokyo or Da Nang?",
+                  "questionType": "multiple_choice",
+                  "audio": "Database_anHai/Nghe/nghecau16.mp3",
+                  "limitListen": true,
+                  "options": [
+                       "A. Tokyo",
+                       "B. Da Nang",
+                       "C. Both are the same"
+                  ],
+                  "answer": "A. Tokyo"
+            }, 
+{
+                  "id": 17,
+                  "question": "Listen and choose the correct answer: What will the smart TV help us do?",
+                  "questionType": "multiple_choice",
+                  "audio": "Database_anHai/Nghe/nghecau17.mp3",
+                  "limitListen": true,
+                  "options": [
+                       "A. Clean the floor",
+                       "B. Order food from the supermarket",
+                       "C. Wash clothes"
+                  ],
+                  "answer": "B. Order food from the supermarket"
+            }, 
+{
+                  "id": 18,
+                  "question": "Listen and choose the correct answer: What is the special food for Tet?",
+                  "questionType": "multiple_choice",
+                  "audio": "Database_anHai/Nghe/nghecau18.mp3",
+                  "limitListen": true,
+                  "options": [
+                       "A. Banh Chung",
+                       "B. Spring rolls",
+                       "C. Pizza"
+                  ],
+                  "answer": "A. Banh Chung"
+            }, 
+{
+                  "id": 19,
+                  "question": "Listen and choose the correct answer: Where is the Great Wall?",
+                  "questionType": "multiple_choice",
+                  "audio": "Database_anHai/Nghe/nghecau19.mp3",
+                  "limitListen": true,
+                  "options": [
+                       "A. In Japan",
+                       "B. In China",
+                       "C. In Korea"
+                  ],
+                  "answer": "B. In China"
+            }, 
+{
+                  "id": 20,
+                  "question": "Listen and choose the correct answer: What is Minh's favorite hobby?",
+                  "questionType": "multiple_choice",
+                  "audio": "Database_anHai/Nghe/nghecau20.mp3",
+                  "limitListen": true,
+                  "options": [
+                       "A. Collecting stamps",
+                       "B. Playing chess",
+                       "C. Taking photos"
+                  ],
+                  "answer": "B. Playing chess"
+            }, 
+{
+                  "id": 21,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "school", "at", "is", "moment.", "my", "Math", "the", "studying", "sister"
+                   ],
+                  "answer": "My sister is studying Math at the school moment"
+            },
+{
+                  "id": 22,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "many", "How", "are", "there", "in", "students", "class?", "your"
+                   ],
+                  "answer": "How many students are there in your class?"
+            },
+{
+                  "id": 23,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "creative", "and", "long", "has", "My", "black", "hair", "is", "best friend"
+                   ],
+                  "answer": "My best friend has long black hair and is creative"
+            },
+{
+                  "id": 24,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "between", "the", "bookstore", "pharmacy.", "and", "The", "is", "bakery"
+                   ],
+                  "answer": "The bakery is between the bookstore and pharmacy."
+            },
+{
+                  "id": 25,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "because", "I", "like", "bright.", "my", "room", "it", "living", "is", "very"
+                   ],
+                  "answer": "I like my living room because it is very bright."
+            },
+{
+                  "id": 26,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "You", "flowers", "mustn't", "school", "the", "garden.", "in", "pick"
+                   ],
+                  "answer": "You mustn't pick flowers in the school garden."
+            },
+{
+                  "id": 27,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "any", "natural", "wonder", "Ha Long Bay", "is", "famous", "than", "more", "other", "in", "Viet Nam."
+                   ],
+                  "answer": "Ha Long Bay is more famous than any other natural wonder in Viet Nam."
+            },
+{
+                  "id": 28,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "recycling", "we", "will", "If", "more", "start", ",", "environment.", "the", "save", "we"
+                   ],
+                  "answer": "If we start recycling more, we will save the environment."
+            },
+{
+                  "id": 29,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "should", "use", "reusable", "we", "bags", "instead", "plastic", "of", "ones."
+                   ],
+                  "answer": "Ww should use reusable bags instead of plastic ones."
+            },
+{
+                  "id": 30,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "the", "Fansipan", "mountain", "in", "Indochina.", "is", "highest"
+                   ],
+                  "answer": "Fansipan is the highest mountain in Indochina."
+            },
+{
+                  "id": 31,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "sometimes", "my", "go", "on", "brother", "doesn't", "Sundays.", "to", "school"
+                   ],
+                  "answer": "My brother sometimes doesn't go to school on Sundays."
+            },
+{
+                  "id": 32,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "robot", "Will", "house", "a", "look", "after", "our", "when", "away?", "we", "are"
+                   ],
+                  "answer": "Will a robot look after our house when we are away?"
+            },
+{
+                  "id": 33,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "usually", "judo", "We", "do", "Tuesdays.", "on", "the", "in", "gym"
+                   ],
+                  "answer": "We usually do judo in the gym on Tuesdays."
+            },
+{
+                  "id": 34,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "People", "neighborhood", "my", "are", "helpful.", "very", "friendly", "and", "in"
+                   ],
+                  "answer": "People in my neighborhood are very friendly and helpful."
+            },
+{
+                  "id": 35,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "shouldn't", "too", "salt", "much", "eat", "because", "you", "health.", "it", "for", "bad", "is", "your"
+                   ],
+                  "answer": "You shouldn't eat too much salt because it is bad for your health."
+            },
+{
+                  "id": 36,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "which", "city", ",", "London", "is", "or", "more", "New York?", "expensive"
+                   ],
+                  "answer": "Which city is more expensive, London or New York?"
+            },
+{
+                  "id": 37,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "I", "my", "to", "went", "teacher", "old", "last", "visit", "weekend."
+                   ],
+                  "answer": "I went to visit my old teacher last weekend."
+            },
+{
+                  "id": 38,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "There", "expensive", "some", "furniture", "is", "uncle's", "new", "in", "my", "house."
+                   ],
+                  "answer": "There is some expensive furniture in my uncle's new house."
+            },
+{
+                  "id": 39,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "Look!", "are", "classmates", "My", "soccer", "the", "schoolyard.", "in", "playing"
+                   ],
+                  "answer": "Look! My classmate are playing soccer in the schoolyard."
+            },
+{
+                  "id": 40,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "What", "your", "house", "future", "in", "the", "will", "like?", "be"
+                   ],
+                  "answer": "What will your house in the future be like?"
+            },
+{
+                  "id": 41,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "The", "Sahara", "desert", "in", "hottest", "is", "the", "world."
+                   ],
+                  "answer": "The Sahara is the hottest desert in the world."
+            },
+{
+                  "id": 42,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "go", "straight", "ahead,", "turn", "left", "and", "then", "at", "corner.", "the"
+                   ],
+                  "answer": "Go straght ahead, and then turn left at the corner."
+            },
+{
+                  "id": 43,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "We", "took", "some", "last", "beautiful", "photos", "of", "scenery", "year."
+                   ],
+                  "answer": "We took some photos of beautiful scenery last year."
+            },
+{
+                  "id": 44,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "is", "your", "address", "What", "city?", "the", "in"
+                   ],
+                  "answer": "What is your address in the city?"
+            },
+{
+                  "id": 45,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "think", "I", "life", "the", "in", "city", "than", "is", "busier", "in", "the", "countryside."
+                   ],
+                  "answer": "I think life in the city is busier than in the countryside."
+            },
+{
+                  "id": 46,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "We", "will", "probably", "in", "live", "a", "houseboat", "on", "the", "sea."
+                   ],
+                  "answer": "We will probably live in a houseboat on the sea."
+            },
+{
+                  "id": 47,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "How", "do", "you", "often", "go", "to", "club?", "the", "sports"
+                   ],
+                  "answer": "How often do you go to the sports club?"
+            },
+{
+                  "id": 48,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "football", "He", "plays", "for", "very", "the", "well", "school", "team."
+                   ],
+                  "answer": "He plays football very well for the school team."
+            },
+{
+                  "id": 49,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "My", "dishwasher", "mother", "a", "bought", "new", "for", "yesterday.", "kitchen", "our"
+                   ],
+                  "answer": "My mother bought a new dishwasher for our kitchen yesterday."
+            },
+{
+                  "id": 50,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "at", "the", "corner", "of", "the", "street.", "is", "There", "a", "pharmacy"
+                   ],
+                  "answer": "There is a pharmacy at the corner of the street."
+            },
+{
+                  "id": 51,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "If", "fine", "the", "is", "weather", "tomorrow,", "go", "we", "will", "camping."
+                   ],
+                  "answer": "If the weather is fine tomorrow, we will go camping."
+            },
+{
+                  "id": 52,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "Robots", "will", "able", "be", "to", "the", "housework", "all", "do", "for", "us."
+                   ],
+                  "answer": "Robots will be able to do all the housework for us."
+            },
+{
+                  "id": 53,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "Da Lat", "for", "is", "famous", "its", "flowers", "fresh", "beautiful", "and", "air."
+                   ],
+                  "answer": "Da Lat is famous for its beautiful flowers and fresh air."
+            },
+{
+                  "id": 54,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "children", "usually", "red", "lucky", "receive", "money", "in", "envelopes", "at", "Tet."
+                   ],
+                  "answer": "Children usually receive lucky money in red envelopes at Tet."
+            },
+{
+                  "id": 55,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "are", "We", "our", "for", "holiday", "preparing", "at", "the", "moment."
+                   ],
+                  "answer": "We are preparing for our holiday at the moment."
+            },
+{
+                  "id": 56,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "the", "supermarket", "opposite", "is", "the", "post", "office", "and", "next", "to", "the", "bank."
+                   ],
+                  "answer": "The supermarket is opposite the post office and next to the bank."
+            },
+{
+                  "id": 57,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "You", "should", "hands", "your", "wash", "meals.", "before", "and", "after"
+                   ],
+                  "answer": "You should wash your hands before and after meals."
+            },
+{
+                  "id": 58,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "What", "will", "do", "if", "you", "have", "robot?", "a", "you"
+                   ],
+                  "answer": "What will you do if you have a robot?"
+            },
+{
+                  "id": 59,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "My", "father", "me", "drives", "to", "school", "every", "but", "morning", "today", "I", "go", "by", "bus."
+                   ],
+                  "answer": "My father drives me to school every morning but today I go to bus."
+            },
+{
+                  "id": 60,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "Who", "the", "is", "most", "person", "famous", "in", "your", "country?"
+                   ],
+                  "answer": "Who is the most famous person in your country?"
+            },
+{
+                  "id": 61,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "We", "shouldn't", "throw", "rubbish", "the", "into", "river", "because", "it", "pollutes", "water.", "the"
+                   ],
+                  "answer": "We shouldn't throw rubbish into the river because it pollutes the water."
+            },
+{
+                  "id": 62,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "My", "dream", "house", "will", "many", "have", "modern", "smart", "devices."
+                   ],
+                  "answer": "My dream house will have many modern smart devices."
+            },
+{
+                  "id": 63,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "Let's", "go", "to", "the", "museum", "to", "see", "some", "historical", "items."
+                   ],
+                  "answer": "Let's go to the museum to see some historical items."
+            },
+{
+                  "id": 64,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "Why", "don't", "we", "turn", "off", "the", "lights", "when", "leaving", "the", "room?"
+                   ],
+                  "answer": "Why don't we turn off the lights when leaving the room?"
+            },
+{
+                  "id": 65,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "This building", "is", "more", "mordern", "than", "that", "one", "in", "the", "city", "center."
+                   ],
+                  "answer": "This building is more mordern than that one in the city center."
+            },
+{
+                  "id": 66,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "Mount", "Everest", "the", "is", "highest", "mountain", "the", "world.", "in"
+                   ],
+                  "answer": "Mount Everest is the highest mountain in the world."
+            },
+{
+                  "id": 67,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "How", "much", "water", "should", "we", "every day?", "drink"
+                   ],
+                  "answer": "How much water should we drink every day?"
+            },
+{
+                  "id": 68,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "My", "sister", "likes", "the", "spring", "best", "because", "flowers.", "there", "are", "many"
+                   ],
+                  "answer": "My sister likes spring best because there are many flowers."
+            },
+{
+                  "id": 69,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "I", "think", "life", "in", "the", "future", "will", "be", "very", "different."
+                   ],
+                  "answer": "I think life in the future will be very different."
+            },
+{
+                  "id": 70,
+                  "question": "Rearrange the words to make complete sentences:",
+                  "questionType": "rearrange_words",
+                  "words": [
+                        "please", "you", "Can", "tell", "me", "the", "way", "to", "the", "nearest", "hospital?"
+                   ],
+                  "answer": "Can you please tell me the way to the nearest hospital?"
+            },
+{
+                "id": 76,
+                  "question": "Choose the word that has a different stress pattern:",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "creative",
+                        "talkative",
+                        "favourite",
+                        "confident"
+                  ],
+                  "answer": "creative"
+            },
+{
+                "id": 77,
+                  "question": "Choose the word that has a different stress pattern:",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "apartment",
+                        "dishwasher",
+                        "furniture",
+                        "palace"
+                  ],
+                  "answer": "apartment"
+            },
+{
+                "id": 78,
+                  "question": "Choose the word that has a different stress pattern:",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "exciting",
+                        "terrible",
+                        "delicious",
+                        "historic"
+                  ],
+                  "answer": "terrible"
+            },
+{
+                "id": 79,
+                  "question": "Choose the word that has a different stress pattern:",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "pollution",
+                        "container",
+                        "disappear",
+                        "environment"
+                  ],
+                  "answer": "disappear"
+            },
+{
+                "id": 80,
+                  "question": "Choose the word that has a different stress pattern:",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "badminton",
+                        "aerobics",
+                        "volleyball",
+                        "basketball"
+                  ],
+                  "answer": "aerobics"
+            },
+{
+                "id": 81,
+                  "question": "Choose the best answer: My cousin is very ________. She is not afraid of speaking in front of the class.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "shy",
+                        "confident",
+                        "creative",
+                        "hard-working"
+                  ],
+                  "answer": "confident"
+            },
+{
+                "id": 82,
+                  "question": "Choose the best answer: Are there ________ chairs in the kitchen? - No, there aren't.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. some",
+                        "B. a",
+                        "C. any",
+                        "D. an"
+                  ],
+                  "answer": "C. any"
+            },
+{
+                "id": 83,
+                  "question": "Choose the best answer: We ________ to the library three times a week.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. are going",
+                        "B. goes",
+                        "C. go",
+                        "D. is going"
+                  ],
+                  "answer": "C. go"
+            },
+{
+                "id": 84,
+                  "question": "Choose the best answer: The cat is ________ the computer and the lamp.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. next to",
+                        "B. between",
+                        "C. behind",
+                        "D. in front of"
+                  ],
+                  "answer": "B. between"
+            },
+{
+                "id": 85,
+                  "question": "Choose the best answer: You ________ pick up flowers in the school garden. It’s a rule.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. shouldn't",
+                        "B. mustn't",
+                        "C. can't",
+                        "D. might not"
+                  ],
+                  "answer": "B. mustn't"
+            },
+{
+                "id": 86,
+                  "question": "Choose the best answer: Which is ________, the blue dress or the red one?",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. expensive",
+                        "B. expensiver",
+                        "C. more expensive",
+                        "D. the most expensive"
+                  ],
+                  "answer": "C. more expensive"
+            },
+{
+                "id": 87,
+                  "question": "Choose the best answer: If we ________ water, there will be a shortage in the future.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. waste",
+                        "B. will waste",
+                        "C. wasting",
+                        "D. wastes"
+                  ],
+                  "answer": "A. waste"
+            },
+{
+                "id": 88,
+                  "question": "Choose the best answer: He ________ judo in the gym at the moment.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. does",
+                        "B. is doing",
+                        "C. plays",
+                        "D. is playing"
+                  ],
+                  "answer": "B. is doing"
+            },
+{
+                "id": 89,
+                  "question": "Choose the best answer: There is a ________ in our living room. We use it to keep the room warm in winter.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. fridge",
+                        "B. fireplace",
+                        "C. microwave",
+                        "D. wardrobe"
+                  ],
+                  "answer": "B. fireplace"
+            },
+{
+                "id": 90,
+                  "question": "Choose the best answer: ________ is your favourite teacher? - It’s Ms. Hoa.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. Who",
+                        "B. What",
+                        "C. Which",
+                        "D. Whose"
+                  ],
+                  "answer": "A. Who"
+            },
+{
+                "id": 91,
+                  "question": "Choose the best answer: This book is very ________. I don't want to read it anymore.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. bored",
+                        "B. boring",
+                        "C. excited",
+                        "D. exciting"
+                  ],
+                  "answer": "B. boring"
+            },
+{
+                "id": 92,
+                  "question": "Choose the best answer: We ________ use plastic bags. We should use reusable bags instead.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. should",
+                        "B. must",
+                        "C. shouldn't",
+                        "D. needn't"
+                  ],
+                  "answer": "C. shouldn't"
+            },
+{
+                "id": 93,
+                  "question": "Choose the best answer: Mount Everest is the ________ mountain in the world.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. high",
+                        "B. higher",
+                        "C. highest",
+                        "D. most high"
+                  ],
+                  "answer": "C. highest"
+            },
+{
+                "id": 94,
+                  "question": "Choose the best answer: She has ________ hair and ________ eyes.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. long black_big blue",
+                        "B. black long_blue big",
+                        "C. long black_blue big",
+                        "D. black long_big blue"
+                  ],
+                  "answer": "A. long black_big blue"
+            },
+{
+                "id": 95,
+                  "question": "Choose the best answer: I ________ my old teacher last week.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. visit",
+                        "B. am visiting",
+                        "C. visited",
+                        "D. will visit"
+                  ],
+                  "answer": "C. visited"
+            },
+{
+                "id": 96,
+                  "question": "Choose the best answer: Robots will be able to ________ our house when we are away.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. guard",
+                        "B. make",
+                        "C. build",
+                        "D. play"
+                  ],
+                  "answer": "A. guard"
+            },
+{
+                "id": 97,
+                  "question": "Choose the best answer: Do you ________ any sports in your free time?",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. go",
+                        "B. do",
+                        "C. have",
+                        "D. make"
+                  ],
+                  "answer": "B. do"
+            },
+{
+                "id": 99,
+                  "question": "Choose the best answer: My school is ________ by green fields and trees.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. surrounding",
+                        "B. surround",
+                        "C. surrounded",
+                        "D. surrounds"
+                  ],
+                  "answer": "C. surrounded"
+            },
+{
+                "id": 98,
+                  "question": "Choose the best answer: Let’s ________ to the cinema this weekend.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. going",
+                        "B. to go",
+                        "C. go",
+                        "D. goes"
+                  ],
+                  "answer": "C. go"
+            },
+{
+                "id": 100,
+                  "question": "Choose the best answer: We should ________ more trees to make our air cleaner",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. plant",
+                        "B. cut",
+                        "C. water",
+                        "D. pick"
+                  ],
+                  "answer": "A. plant"
+            },
+{
+                "id": 101,
+                  "question": "Choose the best answer: I’m going to the ________ to buy some medicine.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. grocery",
+                        "B. pharmacy",
+                        "C. bakery",
+                        "D. bookstore"
+                  ],
+                  "answer": "B. pharmacy"
+            },
+{
+                "id": 102,
+                  "question": "Choose the best answer: How ________ sugar do you need for the cake? - Just a little.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. many",
+                        "B. long",
+                        "C. much",
+                        "D. often"
+                  ],
+                  "answer": "C. much"
+            },
+{
+                "id": 103,
+                  "question": "Choose the best answer: My brother is very ________. He often helps me with my homework.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. kind",
+                        "B. funny",
+                        "C. clever",
+                        "D. sporty"
+                  ],
+                  "answer": "A. kind"
+            },
+{
+                "id": 104,
+                  "question": "Choose the best answer: This is my ________ car. He bought it yesterday.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. uncle",
+                        "B. uncle’s",
+                        "C. uncles’",
+                        "D. uncles"
+                  ],
+                  "answer": "B. uncle’s"
+            },
+{
+                "id": 105,
+                  "question": "Choose the best answer: The film starts ________ 7:30 p.m ________ Sunday.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. at_in",
+                        "B. on_at",
+                        "C. at_on",
+                        "D. in_on"
+                  ],
+                  "answer": "C. at_on"
+            },
+{
+                "id": 106,
+                  "question": "Choose the best answer: Tokyo is ________ than London.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. more noisy",
+                        "B. noisier",
+                        "C. noisy",
+                        "D. the noisiest"
+                  ],
+                  "answer": "B. noisier"
+            },
+{
+                "id": 107,
+                  "question": "Choose the best answer: Look! The students ________ their school project together.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. discuss",
+                        "B. are discussing",
+                        "C. discusses",
+                        "D. is discussing"
+                  ],
+                  "answer": "B. are discussing"
+            },
+{
+                "id": 108,
+                  "question": "Choose the best answer: My dream house ________ have a wireless TV and a modern robot.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. might",
+                        "B. shall",
+                        "C. should",
+                        "D. must"
+                  ],
+                  "answer": "A. might"
+            },
+{
+                "id": 109,
+                  "question": "Choose the best answer: We ________ go camping if the weather is fine tomorrow.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. will",
+                        "B. are",
+                        "C. do",
+                        "D. have"
+                  ],
+                  "answer": "A. will"
+            },
+{
+                "id": 110,
+                  "question": "Choose the best answer: He usually ________ his homework after dinner.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. do",
+                        "B. does",
+                        "C. doing",
+                        "D. is doing"
+                  ],
+                  "answer": "B. does"
+            },
+{
+                "id": 111,
+                  "question": "Choose the best answer: Da Lat is ________ for its beautiful flowers and fresh air.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. famous",
+                        "B. wonderful",
+                        "C. popular",
+                        "D. great"
+                  ],
+                  "answer": "A. famous"
+            },
+{
+                "id": 112,
+                  "question": "Choose the best answer: How ________ is it from your house to the market?",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. long",
+                        "B. far",
+                        "C. many",
+                        "D. much"
+                  ],
+                  "answer": "B. far"
+            },
+{
+                "id": 113,
+                  "question": "Choose the best answer: We ________ some photos of the beautiful scenery in Sapa last year.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. take",
+                        "B. taking",
+                        "C. took",
+                        "D. are taking"
+                  ],
+                  "answer": "C. took"
+            },
+{
+                "id": 114,
+                  "question": "Choose the best answer: You ________ eat too much candy. It’s bad for your teeth.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. should",
+                        "B. must",
+                        "C. shouldn't",
+                        "D. might"
+                  ],
+                  "answer": "C. shouldn't"
+            },
+{
+                "id": 115,
+                  "question": "Choose the best answer: The supermarket is ________ the post office.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. next",
+                        "B. opposite",
+                        "C. between",
+                        "D. in front"
+                  ],
+                  "answer": "B. opposite"
+            },
+{
+                "id": 116,
+                  "question": "Choose the best answer: Would you like to go to my party? - ________ ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. Yes, I'd love to",
+                        "B. Yes, please",
+                        "C. No, I don't",
+                        "D. I'm fine"
+                  ],
+                  "answer": "A. Yes, I'd love to"
+            },
+{
+                "id": 117,
+                  "question": "Choose the best answer: Can you pass me the pen, please? - ________ ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. Yes, I can",
+                        "B. No, thanks",
+                        "C. Here you are",
+                        "D. It’s over there"
+                  ],
+                  "answer": "C. Here you are"
+            },
+{
+                "id": 118,
+                  "question": "Choose the best answer: How is your first day at school? - ________ ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. It’s great",
+                        "B. I'm fine",
+                        "C. I go by bus",
+                        "D. It’s near here"
+                  ],
+                  "answer": "A. It’s great"
+            },
+{
+                "id": 119,
+                  "question": "Choose the best answer: Merry Christmas! - ________ ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. You're welcome",
+                        "B. The same to you",
+                        "C. Happy New Year",
+                        "D. Good luck"
+                  ],
+                  "answer": "B. The same to you"
+            },
+{
+                "id": 120,
+                  "question": "Choose the best answer: Let's go to the park! - ________ ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. That's a good idea",
+                        "B. No, let's not",
+                        "C. You're right",
+                        "D. Yes, we do"
+                  ],
+                  "answer": "A. That's a good idea"
+            },
+{
+                "id": 121,
+                  "question": "Find and choose the mistake: There is some books on the table. ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. There",
+                        "B. is",
+                        "C. some",
+                        "D. books"
+                  ],
+                  "answer": "B. is"
+            },
+{
+                "id": 122,
+                  "question": "Find and choose the mistake: How many milk is there in the bottle? ",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. How",
+                        "B. many",
+                        "C. milk",
+                        "D. is"
+                  ],
+                  "answer": "B. many"
+            },
+{
+                "id": 123,
+                  "question": "Find and choose the mistake: He is tall than his brother.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. He",
+                        "B. is",
+                        "C. tall"
+                  ],
+                  "answer": "C. tall"
+            },
+{
+                "id": 124,
+                  "question": "Find and choose the mistake: You must to do your homework.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. You",
+                        "B. must",
+                        "C. to",
+                        "D. do"
+                  ],
+                  "answer": "C. to"
+            },
+{
+                "id": 125,
+                  "question": "Find and choose the mistake: The children is playing in the garden now.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. The",
+                        "B. in",
+                        "C. is",
+                        "D. playing"
+                  ],
+                  "answer": "C. is"
+            },
+{
+                "id": 126,
+                  "question": "Find and choose the mistake: My sister doesn't like cook.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. My",
+                        "B. sister",
+                        "C. doesn't",
+                        "D. cook"
+                  ],
+                  "answer": "D. cook"
+            },
+{
+                "id": 127,
+                  "question": "Find and choose the mistake: I go to the judo club on Tuesdays",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. I",
+                        "B. go",
+                        "C. to",
+                        "D. on"
+                  ],
+                  "answer": "B. go"
+            },
+{
+                "id": 128,
+                  "question": "Find and choose the mistake: Ha Long Bay is the most beautifulest place in Viet Nam",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. Ha Long Bay",
+                        "B. is",
+                        "C. the",
+                        "D. beautifulest"
+                  ],
+                  "answer": "D. beautifulest"
+            },
+{
+                "id": 129,
+                  "question": "Find and choose the mistake: We shouldn't to throw rubbish on the street.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. We",
+                        "B. shouldn't",
+                        "C. to",
+                        "D. throw"
+                  ],
+                  "answer": "C. to"
+            },
+{
+                "id": 130,
+                  "question": "Find and choose the mistake: I have any friends in this new school.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. I",
+                        "B. have",
+                        "C. any",
+                        "D. friends"
+                  ],
+                  "answer": "B. have"
+            },
+{
+                "id": 131,
+                  "question": "Choose the sentence that has the same meaning: My house has a small garden.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. There is a small garden in my house.",
+                        "B. There has a small garden in my house.",
+                        "C. A small garden is my house.",
+                        "D. My house is in a small garden."
+                  ],
+                  "answer": "A. There is a small garden in my house."
+            },
+{
+                "id": 132,
+                  "question": "Choose the sentence that has the same meaning: No city in the world is more expensive than Tokyo.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. Tokyo is the most expensive city in the world.",
+                        "B. Tokyo is more expensive than any city.",
+                        "C. Tokyo is as expensive as other cities.",
+                        "D. Tokyo is not very expensive."
+                  ],
+                  "answer": "A. Tokyo is the most expensive city in the world."
+            },
+{
+                "id": 133,
+                  "question": "Choose the sentence that has the same meaning: It is necessary for you to finish your homework.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. You should finish your homework.",
+                        "B. You must finish your homework.",
+                        "C. You can finish your homework.",
+                        "D. You may finish your homework."
+                  ],
+                  "answer": "B. You must finish your homework."
+            },
+{
+                "id": 134,
+                  "question": "Choose the sentence that has the same meaning: Let’s go to the zoo.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. Why don't we go to the zoo?",
+                        "B. What about go to the zoo?",
+                        "C. Shall we going to the zoo?",
+                        "D. Do you want go to the zoo?"
+                  ],
+                  "answer": "A. Why don't we go to the zoo?"
+            },
+{
+                "id": 135,
+                  "question": "Choose the sentence that has the same meaning: The pharmacy is in front of the cinema.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. The cinema is behind the pharmacy.",
+                        "B. The cinema is next to the pharmacy.",
+                        "C. The cinema is opposite the pharmacy.",
+                        "D. The cinema is to the left of the pharmacy."
+                  ],
+                  "answer": "A. The cinema is behind the pharmacy."
+            },
+{
+                "id": 136,
+                  "question": "Choose the sentence that has the same meaning: I like the living room best in my house.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. The living room is my favourite room in my house.",
+                        "B. My house has a nice living room.",
+                        "C. I don't like other rooms, just the living room.",
+                        "D. The living room is the best in the world."
+                  ],
+                  "answer": "A. The living room is my favourite room in my house."
+            },
+{
+                "id": 137,
+                  "question": "Choose the sentence that has the same meaning: We will probably live in a houseboat in the future.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. We might live in a houseboat in the future.",
+                        "B. We must live in a houseboat in the future.",
+                        "C. We should live in a houseboat in the future.",
+                        "D. We are living in a houseboat now."
+                  ],
+                  "answer": "A. We might live in a houseboat in the future."
+            },
+{
+                "id": 138,
+                  "question": "Choose the sentence that has the same meaning: He is a very good football player.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. He plays football very well.",
+                        "B. He plays football very good.",
+                        "C. He is good at play football.",
+                        "D. He likes playing football well."
+                  ],
+                  "answer": "A. He plays football very well."
+            },
+{
+                "id": 139,
+                  "question": "Choose the sentence that has the same meaning: What is your address?",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. Where do you live?",
+                        "B. What do you live?",
+                        "C. Where is your address?",
+                        "D. How do you live?"
+                  ],
+                  "answer": "A. Where do you live?"
+            },
+{
+                "id": 140,
+                  "question": "Choose the sentence that has the same meaning: My sister is more creative than me.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. I am not as creative as my sister.",
+                        "B. I am more creative than my sister.",
+                        "C. My sister is as creative as me.",
+                        "D. I am the most creative."
+                  ],
+                  "answer": "A. I am not as creative as my sister."
+            },
+{
+                "id": 141,
+                  "question": "Find and choose the mistake: There is some new notebooks on the desk.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. There",
+                        "B. is",
+                        "C. some",
+                        "D. new notebooks"
+                  ],
+                  "answer": "B. is"
+            },
+{
+                "id": 142,
+                  "question": "Find and choose the mistake: Listen! The girls sing in the music room.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. The",
+                        "B. girls",
+                        "C. sing",
+                        "D. in"
+                  ],
+                  "answer": "C. sing"
+            },
+{
+                "id": 143,
+                  "question": "Find and choose the mistake: My house is more bigger than yours.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. My",
+                        "B. house",
+                        "C. is",
+                        "D. more bigger"
+                  ],
+                  "answer": "D. more bigger"
+            },
+{
+                "id": 144,
+                  "question": "Find and choose the mistake: You shouldn't to stay up too late at night.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. You",
+                        "B. shouldn't",
+                        "C. to",
+                        "D. stay"
+                  ],
+                  "answer": "C. to"
+            },
+{
+                "id": 145,
+                  "question": "Find and choose the mistake: How many milk is there in the bottle?.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. How",
+                        "B. many",
+                        "C. milk",
+                        "D. is"
+                  ],
+                  "answer": "B. many"
+            },
+{
+                "id": 146,
+                  "question": "Find and choose the mistake: How many milk is there in the bottle?.",
+                  "image": "",
+                  "questionType": "multiple_choice",
+                  "optionType": "text",
+                  "options": [
+                        "A. How",
+                        "B. many",
+                        "C. milk",
+                        "D. is"
+                  ],
+                  "answer": "B. many"     
+      ]
+}
